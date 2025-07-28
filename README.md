@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💸 Full Stack AI Finance Platform
 
-## Getting Started
+A powerful, production-ready full-stack finance management platform built with:
 
-First, run the development server:
+**Next.js**, **Supabase**, **Tailwind CSS**, **Prisma**, **Inngest**, **ArcJet**, **Clerk**, and **Shadcn UI**
+
+This project offers intelligent budget tracking, AI-powered assistance, email alerts, secure authentication, and a modern UI — perfect for learning real-world web development.
+
+---
+
+## 🔗 Project Links
+
+- 🔴 **Live App**: [https://your-project-url.vercel.app](https://your-project-url.vercel.app)
+
+---
+
+## 🚀 Tech Stack
+
+| Category         | Technologies Used                        |
+|------------------|-------------------------------------------|
+| Frontend         | Next.js, Tailwind CSS, Shadcn UI          |
+| Backend          | Supabase, Prisma                          |
+| Serverless       | Inngest                                    |
+| Monitoring       | ArcJet                                     |
+| Authentication   | Clerk                                      |
+| AI Integration   | Gemini API                                 |
+| Email Service    | Resend API                                 |
+
+---
+
+
+## ⚙️ Full Setup (All Steps in One)
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/ai-finance-platform.git
+cd ai-finance-platform
+
+# 2. Install dependencies
+npm install
+
+# 3. Create .env file
+touch .env
+# Database
+DATABASE_URL=
+DIRECT_URL=
+
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+# Gemini AI
+GEMINI_API_KEY=
+
+# Email Notifications
+RESEND_API_KEY=
+
+# ArcJet Monitoring
+ARCJET_KEY=
+
+# 4. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
+# ✅ Features
+- ✨ Gemini AI-powered budget insights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📧 Resend email alerts for budget thresholds
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🔐 Clerk-based secure authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔄 Inngest background workflows (e.g., alerts)
 
-## Learn More
+- ⚡ ArcJet performance analytics
 
-To learn more about Next.js, take a look at the following resources:
+- 💅 Clean UI with Tailwind & Shadcn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🧠 Fully scalable, production-ready stack✅ Features
